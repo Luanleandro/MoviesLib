@@ -1,0 +1,38 @@
+.movieCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background: #111;
+  padding: 1rem;
+  margin: 10px;
+}
+
+.movieCard h2 {
+  margin-top: 1rem;
+  word-wrap: break-word;
+}
+
+.movieCard p {
+  display: flex;
+  align-items: start;
+  gap: 0.25rem;
+  margin-top: 1rem;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 1rem 1.2rem;
+  border-radius: 0.2rem;
+  border: none;
+  background: #fb1;
+  cursor: pointer;
+
+  margin-top: 1rem;
+
+  font-size: 1rem;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+}

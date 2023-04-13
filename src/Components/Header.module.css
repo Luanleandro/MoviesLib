@@ -1,0 +1,68 @@
+header {
+  background: #222;
+  padding: 1rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav h2 a {
+  display: flex;
+  align-items: start;
+  gap: 0.5rem;
+
+  color: #fb1;
+  font-size: 2rem;
+}
+
+.nav a:hover {
+  color: #fa4;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.input {
+  padding: 0.6rem 1rem;
+  border-radius: 0.4rem;
+  border: 2px solid #fb1;
+  transition: 0.2s;
+}
+
+.input:focus,
+.input:hover {
+  outline: none;
+  border-color: #fb1;
+  background: white;
+  box-shadow: 0 0 0 2px #fba;
+}
+
+.button {
+  border: none;
+  padding: 0.5rem 0.4rem;
+  background: #fb1;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #fa4;
+}
+
+.button svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 600px) {
+  .nav h2 a {
+    font-size: 1.8rem;
+  }
+}
