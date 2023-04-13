@@ -54,8 +54,6 @@ footer {
   margin-top: 1rem;
 }
 
-
-
 @media (max-width: 800px) {
   .movies {
     grid-template-columns: 1fr 1fr;
@@ -64,4 +62,14 @@ footer {
   .title {
     font-size: 2rem;
   }
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh);
+}
+
+.appBody {
+  flex: 1;
 }

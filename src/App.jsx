@@ -9,15 +9,19 @@ import Footer from './pages/Footer';
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="movie/:id" element={<Movie />} />
-        <Route path="search" element={<Search />} />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+    <div className='app'>
+      <BrowserRouter>
+        <Header />
+        <main className='appBody'>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="movie/:id" element={<Movie />} />
+            <Route path="search" element={<Search />} />
+          </Routes>
+        </main>
+        <Footer />
+      </BrowserRouter>
+    </div>
   );
 };
 
